@@ -1,9 +1,8 @@
-Projekt aplikacji dla kolekcjonerów, która pozwala na zarządzanie kolekcjami, eksponatami oraz interakcje z innymi użytkownikami.
 
+Application project for collectors, which allows for managing collections, exhibits, and interactions with other users.
 
-######Start aplikacji########
+######Application Start########
 
-1. Przechodzimy do folderu z projektem.
-2. Wydajemy komende 'docker compose up'.
-3. Przechodzimy w przeglądarce na adres http://localhost:3001.
-
+1.Navigate to the project folder.
+2.Execute the command 'docker compose up'.
+3.In your browser, go to http://localhost:3001.
