@@ -1,0 +1,141 @@
+
+.navigation {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.2rem 0rem;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    background: #2e2e2e;
+    
+  }
+
+  
+  .brand-name {
+    text-decoration: none;
+    font-size: 3.5rem;
+    margin-left: 0.8rem;
+    color: #d6be73;
+    
+  }
+  
+  .navigation-menu {
+    align-self: stretch;
+    display: flex;
+    align-content: stretch;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    align-content: stretch;
+    padding: 0;
+    z-index: 999;
+    color:white !important;
+  }
+  
+  .navigation-menu li {
+    list-style-type: none;
+    display: flex;
+    align-content: stretch;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #fff;
+  }
+
+  .navigation-menu a span {
+    color: #d6be73;
+  }
+  
+
+  .navigation-menu li a:hover {
+    background-color: rgba(145, 145, 145, 0.199);
+    border-radius: 8px;
+  }
+
+  .logout-navbar { 
+      color: #000000;
+      background-color: #d6be73;
+      display: flex;
+      text-decoration: none;
+      align-items: flex-end;
+      justify-content: center !important;
+      width: 100%;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      transition: 0.4s;
+      font-weight: 600;
+      border: 0;
+      border-radius: 4px;
+      padding: 10px;
+  }
+
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #d6be73;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  
+  .hamburger:hover {
+    background-color: #d6be73;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .navigation-menu ul {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 60px);
+      background-color: white;
+      border-top: 1px solid black;
+      display: none;
+    }
+  
+    .navigation-menu li {
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navigation-menu li a {
+      color: black;
+      width: 100%;
+      padding: 0;
+    }
+  
+    .navigation-menu li:hover {
+      background-color: #eee;
+    }
+  
+    .navigation-menu.expanded ul {
+      display: block;
+    }
+  }
+  
+
+    

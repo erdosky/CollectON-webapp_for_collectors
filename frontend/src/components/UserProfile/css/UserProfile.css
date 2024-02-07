@@ -1,0 +1,36 @@
+.userprofile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.userprofilein {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+    height: 100%;
+}
+
+.userprofileleft
+{
+    width: 20%;
+    border: 2px solid rgba(255, 255, 255, 0.055);
+    box-shadow: 0 0 10px rgba(8,7,16,0.6);
+    border-radius: 5px;
+    min-height: 50vh;
+    height: 100%;
+}
+
+.userprofileright
+{
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.055);
+    border-radius: 5px;
+    min-height: 50vh;
+    box-shadow: 0 0 10px rgba(8,7,16,0.6);
+    margin-right: 20px;
+}
